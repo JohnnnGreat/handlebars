@@ -1,0 +1,43 @@
+.header {
+  color: red;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container div {
+  padding: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.336);
+  border-radius: 10px;
+  width: 400px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+form input {
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: non;
+}
+
+form button {
+  padding: 0.8rem 1rem;
+  background: rgb(0, 26, 56);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+.errors {
+  
+}

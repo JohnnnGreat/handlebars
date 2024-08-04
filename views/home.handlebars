@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+  </head>
+  <body>
+    <h1 class="header">Home Page</h1>
+    {{#if user}}
+      <div>
+        <h3>Username: {{user.username}}</h3>
+        <h2>Email: {{user.email}}</h2>
+
+        <a href="/auth/logout">Logout</a>
+      </div>
+
+    {{else}}
+      <div>
+        <a href="/auth/login">Login</a>
+        <a href="/auth/signup">Sign Up</a>
+      </div>
+    {{/if}}
+
+  </body>
+</html>
